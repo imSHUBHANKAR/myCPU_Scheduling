@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preemptive</title>
+    <link rel="stylesheet" href="FCFS.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="main.html" target="_blank"><img src="60736.png" alt="Home"></a>
+        <div class="logoline">
+          <a href="main.html"><b>Hyper Blogs</b> </a> 
+        </div>
+    <ul>
+      <li><a href="#home">Create Your Blog</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">More</a>
+        <div class="dropdown-content">
+          <a href="aboutUs.html">About Us</a>
+          <a href="contactUs.html">Contact Us</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="" class="dropbtn">Explore</a>
+        <div class="dropdown-content">
+          <a href="#">Geography</a>
+          <a href="#">History</a>
+          <a href="#">Technology</a>
+        </div>
+      </li>
+    </ul>
+    </div>
+    <br><br><br>
+    <hr>
+
+
+
+
+
+
+    <div class="one">
+        <h1>CPU Scheduling</h1>
+        <br>
+        <marquee>
+            <b>Preemptive scheduling is used when a process switches from running state to ready state or from the waiting state to ready state. The resources (mainly CPU cycles) are allocated to the process for a limited amount of time and then taken away, and the process is again placed back in the ready queue if that process still has CPU burst time remaining. That process stays in the ready queue till it gets its next chance to execute. 
+        </marquee>
+        <br><br>
+        <div class="container">
+            <button class="btn1"><a id="p" href="FCFS.html"><b>FCFS</b></a></button>
+            <button class="btn2"><a id="p" href="Preemptive.html"><b>Preemptive</b></a></button>
+            <button class="btn3"><a id="p" href="NPreemptive.html"><b>Non Preemptive</b></a></button>
+        </div>
+    </div>
+
+    <h2><u>Preemptive CPU Scheduling</u> : -</h2>
+    <div class="fone">
+        <p><b style="color:orangered">Arrival Time :-</b> Arrival time is the time when a process enters into the ready state and is ready for its execution.</p>
+        <p><b style="color:orangered">Burst Time :-</b> Burst time is the total time taken by the process for its execution on the CPU.</p>
+        <p><b style="color:orangered">Exit time :-</b> Exit time is the time when a process completes its execution and exit from the system.</p>
+        <p><b  style="color: orangered;">Turnaround Time :-</b> Turnaround time is the total amount of time spent by the process from coming in the ready state for the first time to its completion.<b>Turnaround time = (Burst time + Waiting time).</b> or
+            <b>Turnaround time = (Exit time - Arrival time)</b></p>
+        </div>
+
+   <div class="two">
+        <h2><u>Input</u> -- </h2>
+        <h3>Arrival Times-</h3>
+        <label for="atimes"></label>
+        <input type="text" placeholder="E.g.-  0 2 4 6 8">
+        <h3>Burst Times-</h3>
+        <label for="bTime"></label>
+        <input type="text" placeholder="E.g.-  2 4 6 8 10"><br>
+        <button class="btn4">Solve</button>
+    </div>
+    <br>
+    <div class="three">
+        <h2><u>Output</u> -- </h2>
+        <hr>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        
+</body>
+</html>
